@@ -43,8 +43,9 @@
 
 -   Plan project in README.md [complete]
 -   Build HTML and center with CSS [complete]
--   Get DOM elements
--   Complete JS with random answer and show/hide logic
+-   Get DOM elements [complete]
+-   Display random answer on submit button click [complete]
+-   Implement show/hide logic
 -   Remove console.log statements
 
 _Look for green check after each commit!_
