@@ -41,7 +41,7 @@
 
 ## Workflow
 
--   Plan project in README.md
+-   Plan project in README.md [complete]
 -   Build HTML and center with CSS
 -   2+ commits for event listener and show/hide logic
 -   Remove console.log statements
