@@ -4,6 +4,7 @@ const fortuneSection = document.getElementById('fortune');
 const submitBtn = document.getElementById('submit');
 const answerP = document.getElementById('answer');
 const resetBtn = document.getElementById('reset');
+const questionInput = document.getElementById('question');
 
 // initialize array of answers
 const answers = [
@@ -46,3 +47,7 @@ submitBtn.addEventListener('click', () => {
 });
 
 resetBtn.addEventListener('click', toggleSections);
+
+resetBtn.addEventListener('click', () => {
+    questionInput.value = '';
+});

@@ -48,6 +48,7 @@
 -   Implement show/hide logic [complete]
 -   Remove console.log statements [complete]
 -   Style input and buttons [complete]
+-   Clear question from input on reset [complete]
 
 _Look for green check after each commit!_
 
