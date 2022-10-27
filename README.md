@@ -45,7 +45,11 @@
 -   Build HTML and center with CSS [complete]
 -   Get DOM elements [complete]
 -   Display random answer on submit button click [complete]
--   Implement show/hide logic
--   Remove console.log statements
+-   Implement show/hide logic [complete]
+-   Remove console.log statements [complete]
 
 _Look for green check after each commit!_
+
+## Attributions
+
+Clker-Free-Vector-Images [_Magic 8 Ball._](https://pixabay.com/vectors/ball-8-eight-flame-fire-pool-33995/) Pixabay.

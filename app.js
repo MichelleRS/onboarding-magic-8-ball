@@ -29,15 +29,14 @@ const answers = [
 ];
 
 // events
-
-function toggleSelections() {
+function toggleSections() {
     promptSection.classList.toggle('hide');
     fortuneSection.classList.toggle('hide');
 }
 
 // button click
 submitBtn.addEventListener('click', () => {
-    toggleSelections();
+    toggleSections();
 
     // get random answer
     let getRandomAnswer = answers[Math.floor(Math.random() * answers.length)];
@@ -45,3 +44,5 @@ submitBtn.addEventListener('click', () => {
     // display random answer
     answerP.textContent = getRandomAnswer;
 });
+
+resetBtn.addEventListener('click', toggleSections);
