@@ -47,6 +47,7 @@
 -   Display random answer on submit button click [complete]
 -   Implement show/hide logic [complete]
 -   Remove console.log statements [complete]
+-   Style input and buttons [complete]
 
 _Look for green check after each commit!_
 
