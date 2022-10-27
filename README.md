@@ -31,7 +31,7 @@
 ### Events
 
 -   button click (submit question)
-    -   pick random number
+    -   initialize array of answers, pick random number, set as random answer variable
     -   hide prompt
     -   display image
     -   set content of answer `p` to the the random answer
@@ -42,8 +42,9 @@
 ## Workflow
 
 -   Plan project in README.md [complete]
--   Build HTML and center with CSS
--   2+ commits for event listener and show/hide logic
+-   Build HTML and center with CSS [complete]
+-   Get DOM elements
+-   Complete JS with random answer and show/hide logic
 -   Remove console.log statements
 
 _Look for green check after each commit!_

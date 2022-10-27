@@ -1,11 +1,17 @@
-/* Imports */
+// get DOM Elements
+const promptSection = document.getElementById('prompt');
+const fortuneSection = document.getElementById('fortune');
+const submitBtn = document.getElementById('submit');
+const answerP = document.getElementById('answer');
+const resetBtn = document.getElementById('reset');
 
-/* Get DOM Elements */
+// initialize array of answers
 
-/* State */
+// event
 
-/* Events */
-
-/* Display Functions */
-
-// (don't forget to call any display functions you want to run on page load!)
+// console.log
+console.log(promptSection);
+console.log(fortuneSection);
+console.log(submitBtn);
+console.log(answerP);
+console.log(resetBtn);
