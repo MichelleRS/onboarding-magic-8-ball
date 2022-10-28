@@ -1,11 +1,53 @@
-/* Imports */
+// get DOM Elements
+const promptSection = document.getElementById('prompt');
+const fortuneSection = document.getElementById('fortune');
+const submitBtn = document.getElementById('submit');
+const answerP = document.getElementById('answer');
+const resetBtn = document.getElementById('reset');
+const questionInput = document.getElementById('question');
 
-/* Get DOM Elements */
+// initialize array of answers
+const answers = [
+    'Yes, definitely',
+    'It is certain',
+    'It is decidedly so',
+    'Without a doubt',
+    'You may rely on it',
+    'As I see it, yes',
+    'Most Likely',
+    'Outlook good',
+    'Signs point to yes',
+    'Reply hazy, try again',
+    'Ask again later',
+    'Better not tell you now',
+    'Cannot predict now',
+    'Concentrate and ask again',
+    'Don’t count on it',
+    'My reply is no',
+    'My sources say no',
+    'Outlook not so good',
+    'Very doubtful',
+];
 
-/* State */
+// events
+function toggleSections() {
+    promptSection.classList.toggle('hide');
+    fortuneSection.classList.toggle('hide');
+}
 
-/* Events */
+// button click
+submitBtn.addEventListener('click', () => {
+    toggleSections();
 
-/* Display Functions */
+    // get random answer
+    let getRandomAnswer = answers[Math.floor(Math.random() * answers.length)];
 
-// (don't forget to call any display functions you want to run on page load!)
+    // display random answer
+    answerP.textContent = getRandomAnswer;
+});
+
+resetBtn.addEventListener('click', toggleSections);
+
+resetBtn.addEventListener('click', () => {
+    questionInput.value = '';
+});
