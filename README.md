@@ -49,6 +49,7 @@
 -   Remove console.log statements [complete]
 -   Style input and buttons [complete]
 -   Clear question from input on reset [complete]
+-   Edit alt text to be more descriptive [complete]
 
 _Look for green check after each commit!_
 
